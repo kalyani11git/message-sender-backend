@@ -1,6 +1,2 @@
 [build]
-  command = "npm start"  # Or the appropriate command for your app
-  publish = "."  # Deploy the whole repo
-
-[context.production.environment]
-  NODE_ENV = "production"
+  command = "npm install && npm start"
