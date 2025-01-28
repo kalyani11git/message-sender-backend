@@ -1,2 +1,6 @@
 [build]
-  command = "npm install && npm start"
+  command = "npm install"
+  publish = "build"
+
+[functions]
+  directory = "functions"
